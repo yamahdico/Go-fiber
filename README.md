@@ -1,6 +1,6 @@
 # Go-fiber
 
-In terminal
+In terminal<br>
  go install github.com/gofiber/fiber@latest  <br>
  go mod init Go-fiber  <br>
 
