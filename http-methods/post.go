@@ -37,3 +37,19 @@ func main() {
 	log.Fatal(app.Listen(fmt.Sprintf(":%s", port)))
 
 }
+
+/*
+Method: POST
+URL: http://127.0.0.1:3001/api/data
+
+
+
+Headers: Content-Type
+Value: application/json
+
+Body(JSON Content):
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com"
+}
+*/
