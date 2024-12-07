@@ -18,7 +18,7 @@ func main() {
 	app := fiber.New()
 
 	// Load .env file
-	err := godotenv.Load(".env")
+	err := godotenv.Load("./Fiber-mysql/.env")
 	if err != nil {
 		log.Println("Warning: .env file not found. Defaulting to environment variables.")
 	}
